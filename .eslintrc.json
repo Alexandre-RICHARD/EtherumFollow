@@ -1,0 +1,47 @@
+{
+    "parser": "vue-eslint-parser",
+    "parserOptions": {
+        "parser": "@babel/eslint-parser",
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "extends": ["eslint:recommended", "plugin:vue/vue3-recommended"],
+    "plugins": ["vue"],
+    "env": {
+        "node": true,
+        "browser": true,
+        "es2021": true
+    },
+    "rules": {
+        "brace-style": ["error", "1tbs"],
+        "indent": ["error", 4],
+        "linebreak-style": ["error", "windows"],
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"],
+        "vue/script-indent": ["error", 4],
+        "vue/html-indent": ["error", 4],
+        "vue/singleline-html-element-content-newline": "off",
+        "vue/max-attributes-per-line": [
+            "error",
+            {
+                "singleline": {
+                    "max": 4
+                },
+                "multiline": {
+                    "max": 4
+                }
+            }
+        ]
+    },
+    "settings": {
+        "import/resolver": {
+            "alias": {
+                "extensions": [".js"],
+                "map": [
+                    ["src", "./src"],
+                    ["app", "./src"]
+                ]
+            }
+        }
+    }
+}
