@@ -28,4 +28,10 @@ Et voici le [répo du serveur](https://github.com/Alexandre-RICHARD/Portfolio-Ba
 -   Remaniement du webpack.config.js, du package.json et du readme.md
 -   Changement du favicon
 
+### 1.0.3 `13 août 2023`
+
+-   Retrait de dotenv-webpack, inutile pour ce projet
+-   Mise à jour des packages npm
+-   Rajout d'un script pnpm pour mettre à jour plus facilement les dépendances
+
 </details>
