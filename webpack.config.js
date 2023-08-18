@@ -1,3 +1,4 @@
+const webpack = require('webpack');
 const path = require("path");
 // Pour vider le dossier de build lors d'un nouveau build ou d'un npm start
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
@@ -71,6 +72,11 @@ module.exports = {
         },
     },
     plugins: [
+        // Pour configurer correctement Vue.JS
+        new webpack.DefinePlugin({
+            __VUE_OPTIONS_API__: false,
+            __VUE_PROD_DEVTOOLS__: true,
+        }),
         // Le loader de Vue.JS
         new VueLoaderPlugin(),
         // Pour vider le dossier de build lors d'un nouveau build ou d'un npm start
