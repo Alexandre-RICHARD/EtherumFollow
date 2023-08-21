@@ -2,9 +2,8 @@
 
 Bonjour, bienvenue sur le répo d'un petit projet de suivi de bénéfice/perte lié à un investissement sur le cours de l'Etherum. Très primordial et basique, il aura peut-être son lot de nouveautés dans l'avenir.
 
-Voici [le site](http://etherumfollow.rial7539.odns.fr/) en question.
-
-Et voici le [répo du serveur](https://github.com/Alexandre-RICHARD/Portfolio-Back) lié.
+Voici [le site](https://etherumfollow.alexandre-richard.fr/) en question.
+Et [son répo](https://github.com/Alexandre-RICHARD/EtherumFollow)
 
 ## Historique des versions
 
@@ -37,5 +36,10 @@ Et voici le [répo du serveur](https://github.com/Alexandre-RICHARD/Portfolio-Ba
 ### 1.0.4 `18 août 2023`
 
 -   Rajout de deux lignes de configurations pour webpack et vueJS
+
+### 1.0.5 `21 août 2023`
+
+-   Maintenant que j'ai récupéré le nom de domaine, actualisation de tous les liens sortant
+-   Mise à jour des packages npm
 
 </details>
