@@ -1,0 +1,27 @@
+.details {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 4px 15px;
+}
+
+.left {
+  font-weight: 600;
+  text-align: left;
+}
+
+.green {
+  background-color: #01b150;
+}
+
+.blue {
+  background-color: #3090df;
+}
+
+.orange {
+  background-color: #e26715;
+}
+
+.yellow {
+  background-color: #FFC000;
+}

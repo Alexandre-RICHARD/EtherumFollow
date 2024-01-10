@@ -1,0 +1,15 @@
+.currencies--table {
+  color: #ffffff;
+}
+
+.currencies__first--line {
+  background-color: #421E06;
+}
+
+.currency {
+  background-color: #833C0C;
+}
+
+.currency:nth-child(2n) {
+  background-color: #C65911;
+}

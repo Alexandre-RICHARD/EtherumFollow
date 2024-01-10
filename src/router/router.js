@@ -7,7 +7,7 @@ import { useMainStore } from "@store/Main";
 
 // On liste toutes les routes qui seront gérées par le router principal
 const routes = [
-    
+
 ];
 
 // On créé notre router en indiquand l'historique et le tableau des routes précédemment créées

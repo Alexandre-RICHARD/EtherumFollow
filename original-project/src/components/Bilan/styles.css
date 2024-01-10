@@ -1,0 +1,34 @@
+.bilan {
+  border-radius: 30px;
+  border: 4px solid #666666;
+  padding:5px;
+  margin: 10px 0;
+}
+
+.bilan--text {
+  margin: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size:17px
+}
+
+.bilan span {
+  font-weight: 900;
+  font-size: 21px;
+}
+
+.span--somme {
+  color: #2f91ec;
+}
+
+.span--gain {
+  color: #158815;
+}
+
+.span--growth {
+  color: #cf7c16;
+}
+
+.span--bitcoin {
+  color: #e62e20;
+}

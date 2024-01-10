@@ -1,0 +1,20 @@
+.scroll--table {
+  overflow-y: auto;
+  max-height: 290px;
+}
+
+.transaction--table {
+  color: #ffffff;
+}
+
+.transaction__first--line {
+  background-color: #0F2539;
+}
+
+.transaction--line {
+  background-color: #1F4E78;
+}
+
+.transaction--line:nth-child(2n) {
+  background-color: #2F75B5;
+}
