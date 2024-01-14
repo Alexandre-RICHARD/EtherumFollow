@@ -3,11 +3,11 @@
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",
-    "upload": "surge ./dist/ bitcoin-state-alex.surge.sh",
+    "upload": "surge ./build/ bitcoin-state-alex.surge.sh",
     "lint": "eslint src/**/*.js",
     "lint:fix": "eslint --fix src/**/*.js",
     "clean": "rd /s /q build",
-    "clean:all": "rd /s /q node_modules build & rd /s /q build & del /q package-lock.json & del /q pnpm-lock.yaml"
+    "clean:all": "rd /s /q node_modules build"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",
